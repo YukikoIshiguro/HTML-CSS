@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人事研修動画 - one-hat株式会社</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0; /* 薄いクリーム色 */
+        }
+        header {
+            background-color: #ffa500; /* オレンジ色 */
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2em; /* タイトルの文字サイズを大きく */
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3列に設定 */
+            gap: 20px; /* ギャップを設定 */
+            max-width: 1200px; /* 最大幅を設定 */
+            margin: 20px;
+        }
+        .video-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        .title {
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 1.2em; /* タイトルの文字サイズを大きく */
+            text-align: center; /* タイトルを中央揃え */
+        }
+        .description {
+            margin-top: 5px;
+            color: #666;
+            font-size: 1em; /* 説明文の文字サイズを調整 */
+            text-align: center; /* 説明文を中央揃え */
+        }
+        .url {
+            margin-top: 5px;
+            color: #0066cc;
+            font-size: 0.9em; /* URLの文字サイズを少し小さく設定 */
+            text-align: center; /* URLを中央揃え */
+            word-break: break-all; /* URLの途中で改行可能にする */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>one-hat株式会社 人事研修動画</h1>
+    </header>
+    <div class="container">
+        <div class="video-item">
+            <video controls src="https://drive.google.com/drive/u/0/folders/1iWZOKD24R6nLq1UllV5lUMWbgUT_Kqb7"></video>
+            <div class="title">人材概論</div>
+            <div class="description">研修動画です！</div>
+            <div class="url">C:/Users/yukik/Downloads/【動画】人材採用-1.mp4</div>
+        </div>
+        <div class="video-item">
+            <video controls src="C:/Users/yukik/Downloads/【動画】人材採用-2.mp4"></video>
+            <div class="title">人材採用2</div>
+            <div class="description">研修動画です！</div>
+            <div class="url">C:/Users/yukik/Downloads/【動画】人材採用-2.mp4</div>
+        </div>
+        <div class="video-item">
+            <video controls src="C:/Users/yukik/Downloads/【動画】人材育成の基礎理論-3.mp4.crdownload"></video>
+            <div class="title">人材育成の基礎理論-3</div>
+            <div class="description">白石さんの動画です！</div>
+            <div class="url">C:/Users/yukik/Downloads/【動画】人材育成の基礎理論-3.mp4.crdownload</div>
+        </div>
+        <div class="video-item">
+            <video controls src="C:/Users/yukik/Downloads/【動画】人材育成の基礎理論-1.mp4"></video>
+            <div class="title">人材育成の基礎理論</div>
+            <div class="description">基礎です</div>
+            <div class="url">C:/Users/yukik/Downloads/【動画】人材育成の基礎理論-1.mp4</div>
+        </div>
+        <div class="video-item">
+            <video controls src="C:/Users/yukik/Downloads/【動画】人材育成の基礎理論-3.mp4"></video>
+            <div class="title">人材育成の基礎理論-3</div>
+            <div class="description">説明文5</div>
+            <div class="url">C:/Users/yukik/Downloads/【動画】人材育成の基礎理論-3.mp4</div>
+        </div>
+        <div class="video-item">
+            <video controls src="C:\Users\USER\Downloads/【動画】人事概論.mp4"></video>
+            <div class="title">人材育成の基礎理論-3</div>
+            <div class="description">説明文6</div>
+            <div class="url">C:/Users/yukik/Downloads/【動画】人材育成の基礎理論-3.mp4</div>
+        </div>
+        <div class="video-item">
+            <video controls src="video/test.mp4"></video>
+            <div class="title">タイトル7</div>
+            <div class="description">説明文7</div>
+            <div class="url">video/test.mp4</div>
+        </div>
+        <div class="video-item">
+            <video controls src="C:/Users/yukik/Downloads/【動画】人事概論.mp4"></video>
+            <div class="title">人事概論</div>
+            <div class="description">説明文8</div>
+            <div class="url">C:/Users/yukik/Downloads/【動画】人事概論.mp4</div>
+        </div>
+        <div class="video-item">
+            <video controls src="video/test.mp4"></video>
+            <div class="title">タイトル9</div>
+            <div class="description">説明文9</div>
+            <div class="url">video/test.mp4</div>
+        </div>
+    </div>
+</body>
+</html>
+#３×３縦長
