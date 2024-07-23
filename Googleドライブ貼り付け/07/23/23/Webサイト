@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人事研修動画 - one-hat株式会社</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0; /* 薄いクリーム色 */
+        }
+        header {
+            background-color: #ffa500; /* オレンジ色 */
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2em; /* タイトルの文字サイズを大きく */
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px;
+        }
+        .video-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: auto;
+        }
+        .title {
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 1.2em; /* タイトルの文字サイズを大きく */
+        }
+        .description {
+            margin-top: 5px;
+            color: #666;
+            font-size: 1em; /* 説明文の文字サイズを調整 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>one-hat株式会社 人事研修動画</h1>
+    </header>
+    <div class="container">
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1iWZOKD24R6nLq1UllV5lUMWbgUT_Kqb7/preview" allow="autoplay"></iframe>
+            <div class="title">人材採用1</div>
+            <div class="description">研修動画です！</div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1QJNU9YySLblBcWyvUNcSzd1TvlI3nFH8/preview" allow="autoplay"></iframe>
+            <div class="title">人材採用2</div>
+            <div class="description">研修動画です！</div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1BXYNcXYU0Q9yO76F8YtMaS7g4Hg0D7S1/preview" allow="autoplay"></iframe>
+            <div class="title">人材育成の基礎理論-3</div>
+            <div class="description">白石さんの動画です！</div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1KJHM9A1U1CbrTtP6EJg9HvzSGZvDg6sy/preview" allow="autoplay"></iframe>
+            <div class="title">人材育成の基礎理論</div>
+            <div class="description">基礎です</div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1ZBYNcXYU0Q9yO76F8YtMaS7g4Hg0D7S2/preview" allow="autoplay"></iframe>
+            <div class="title">人材育成の基礎理論-3</div>
+            <div class="description">説明文5</div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1QXYNcXYU0Q9yO76F8YtMaS7g4Hg0D7S3/preview" allow="autoplay"></iframe>
+            <div class="title">人材育成の基礎理論-3</div>
+            <div class="description">説明文6</div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1RXYNcXYU0Q9yO76F8YtMaS7g4Hg0D7S4/preview" allow="autoplay"></iframe>
+            <div class="title">タイトル7</div>
+            <div class="description">説明文7</div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1SXYNcXYU0Q9yO76F8YtMaS7g4Hg0D7S5/preview" allow="autoplay"></iframe>
+            <div class="title">タイトル8</div>
+            <div class="description">説明文8</div>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1TXYNcXYU0Q9yO76F8YtMaS7g4Hg0D7S6/preview" allow="autoplay"></iframe>
+            <div class="title">タイトル9</div>
+            <div class="description">説明文9</div>
+        </div>
+    </div>
+</body>
+</html>
